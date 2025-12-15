@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. [Your Name] - Academic Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            border-bottom: 2px solid #003366;
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .profile-section {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+            object-fit: cover;
+            border: 1px solid #ddd;
+        }
+        
+        .profile-info {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        h1 {
+            color: #003366;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .title {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info {
+            margin-top: 15px;
+            line-height: 1.8;
+        }
+        
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        nav {
+            margin: 30px 0;
+            padding: 15px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        nav a {
+            color: #003366;
+            text-decoration: none;
+            margin-right: 25px;
+            font-weight: 500;
+            font-size: 1.05em;
+        }
+        
+        nav a:hover {
+            color: #0066cc;
+            text-decoration: underline;
+        }
+        
+        section {
+            margin-bottom: 50px;
+        }
+        
+        h2 {
+            color: #003366;
+            font-size: 1.6em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        h3 {
+            color: #003366;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .bio {
+            text-align: justify;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        
+        .news-item {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            border-left: 3px solid #0066cc;
+        }
+        
+        .news-date {
+            font-weight: bold;
+            color: #003366;
+        }
+        
+        .paper {
+            margin-bottom: 25px;
+            line-height: 1.8;
+        }
+        
+        .paper-title {
+            font-weight: bold;
+            color: #003366;
+            font-size: 1.05em;
+        }
+        
+        .paper-authors {
+            color: #555;
+            font-style: italic;
+        }
+        
+        .paper-venue {
+            color: #666;
+        }
+        
+        .paper-links {
+            margin-top: 5px;
+        }
+        
+        .paper-links a {
+            color: #0066cc;
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 0.95em;
+        }
+        
+        .paper-links a:hover {
+            text-decoration: underline;
+        }
+        
+        ul {
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+        
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            color: #777;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .profile-section {
+                flex-direction: column;
+            }
+            
+            .profile-image {
+                width: 150px;
+                height: 150px;
+            }
+            
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-section">
+                <img src="your-photo.jpg" alt="Your Name" class="profile-image">
+                <div class="profile-info">
+                    <!-- <h1>Dr. [Your Full Name]</h1> -->
+                     <h1>Sogol Masoumzadeh</h1>
+                    <p class="title">PhD Candidate in Software Engineering | Associate LLM Engineer (PhD Research Intern) @ HUAWEI Canada</p>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> <a href="mailto:sogol.masoumzadeh@mail.mcgill.ca">sogol.masoumzadeh@mail.mcgill.ca</a></p>
+                        <!-- <p><strong>Office:</strong> [Building Name, Room Number]</p> -->
+                        <p><strong>Institution:</strong> [McGill University], [Electrical and Computer Engineering]</p>
+                        <p>
+                            <a href="https://scholar.google.com/citations?user=qyZGUBQAAAAJ&hl=en" target="_blank">Google Scholar</a> | 
+                            <a href="https://www.linkedin.com/in/sogol-masoumzadeh-783995156" target="_blank">LinkedIn</a> | 
+                            <a href="https://github.com/SogolMasoumzadeh" target="_blank">GitHub</a> | 
+                            <!-- <a href="https://twitter.com/yourusername" target="_blank">Twitter</a> -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#news">News</a>
+            <a href="#publications">Publications</a>
+            <a href="#teaching">Teaching</a>
+            <a href="#service">Service</a>
+        </nav>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="bio">
+                <p>I am a last year PhD Candidate at McGill University (Canada), advised by Prof. Lili Wei, Prof. Shane McIntosh (University of Waterloo, Canada), and Prof. Dániel Varró (Linköping University, Sweden),
+                    working on software defect detection and automatic program repair, specifically focusing on emergent, low-resource software artifacts. </p>
+                
+                <p>Since August 2024, I am also doing a full-time PhD research internship with the "Center for Software Excellence" (directed by Prof. Ahmed E. Hassan) at HUAWEI Canada. 
+                    During my internship I have been involved in cutting-edge research for AI4SE and SE4AI topics, leading to two major publications in top-tier venues and also two patent applications.</p>
+                <p>Prior to my PhD, I completed my M.Sc. degree at the University of Manitoba (Canada) in 2020, where I was the front runner for the Governor General's Academic Gold Medal, 
+                    and my B.Sc. degree at Amirkabir University of Technology (Tehran Polytechnic) in 2017, where I graduated with honors and as the Salutatorian.</p>
+                
+                <p>My work has been published in top-tier venues including TSE, TOSEM, ASE, and SANER.</p>
+            </div>
+
+            <h3>Research Interests</h3>
+            <ul>
+                <li>AI4SE</li>
+                <li>SE4AI</li>
+                <li>Software Defect Detection</li>
+                <li>Automated Program Repair (APR)</li>
+            </ul>
+
+            <h3>Education</h3>
+            <ul>
+                <li><strong>PhD in Software Engineering</strong>, McGill University, (<em>To graduate in spring 2026!</em>)
+                    <!-- <br>Thesis: "[Your Thesis Title]" -->
+                    <br>Advisors: Porf. Lili Wei, Prof. Shane McIntosh, and Prof. Dániel Várro 
+                </li>
+                <li><strong>Master of Science in Electrical and Computer Engineering, Biomedical Engineering Program</strong>, The University of Manitoba, 2020</li>
+                <li><strong>Bachelor of Science in Electrical Engineering, Bioelectrics</strong>, Amirkabir University of Technology (Tehran Polytechnic), 2017</li>
+            </ul>
+        </section>
+
+        <section id="news">
+            <h2>News</h2>
+            <div class="news-item">
+                <span class="news-date">[Dec 2025]</span> Our latest paper just got accepted for publication in SANER 2026!
+            </div>
+            <div class="news-item">
+                <span class="news-date">[Nov 2025]</span> Received <strong>1<sup>st</sup>-place Award</strong> at Student Research Competition, ASE 2025!
+            </div>
+            <div class="news-item">
+                <span class="news-date">[Nov 2025]</span> Arrived in Seuol, Sounth Korea, for ASE 2025, with three papers to be presented at the conference!
+            </div>
+            <!-- <div class="news-item">
+                <span class="news-date">[Sep 2025]</span> Successfully defended PhD thesis!
+            </div>
+            <div class="news-item">
+                <span class="news-date">[Aug 2025]</span> Received [Award Name] for outstanding research.
+            </div> -->
+        </section>
+
+        <section id="publications">
+            <h2>Selected Publications</h2>
+            <p style="margin-bottom: 20px;">For a complete list, please visit my <a href="https://scholar.google.com/citations?user=qyZGUBQAAAAJ&hl=en" target="_blank">Google Scholar profile</a>.</p>
+
+            <h3>2025</h3>
+            <div class="paper">
+                <div class="paper-title">SeBERTis: A Framework for Producing Classifiers of Security-Related Issue Reports</div>
+                <div class="paper-authors"><strong>Sogol Masoumzadeh</strong>, Yufei Li, Shane McIntosh, Dániel Várro, Lili Wei</div>
+                <div class="paper-venue">SANER 2026, Limassol, Cyprus</div>
+                <div class="paper-links">
+                    <!-- <a href="paper-url.pdf" target="_blank">[PDF]</a>
+                    <a href="https://arxiv.org/abs/xxxx.xxxxx" target="_blank">[arXiv]</a>
+                    <a href="https://github.com/yourusername/project" target="_blank">[Code]</a>
+                    <a href="project-page.html" target="_blank">[Project Page]</a> -->
+                </div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title">Towards Reliable Generation of Executable Workflows by Foundation Models</div>
+                <div class="paper-authors"><strong>Sogol Masoumzadeh</strong>, Keheliya Gallaba, Dayi Lin, Ahemd E. Hassan</div>
+                <div class="paper-venue">TOSEM (Under Review)</div>
+                <div class="paper-links">
+                    <a href="https://arxiv.org/pdf/2509.25117" target="_blank">[arXiv]</a>
+                    <!-- <a href="https://doi.org/10.xxxx/xxxxx" target="_blank">[DOI]</a> -->
+                </div>
+            </div>
+            
+            <div class="paper">
+                <div class="paper-title">Detecting Vulnerabilities from Issue Reports for Internet-of-Things</div>
+                <div class="paper-authors"><strong>Sogol Masoumzadeh</strong></div>
+                <div class="paper-venue">ASE 2025 (1st-place Award, Student Research Competion)</div>
+                <div class="paper-links">
+                    <a href="https://arxiv.org/abs/2511.01941" target="_blank">[arXiv]</a>
+                    <!-- <a href="https://doi.org/10.xxxx/xxxxx" target="_blank">[DOI]</a> -->
+                </div>
+            </div>
+
+            <div class="paper">
+                <div class="paper-title">Watson: A Cognitive Observability Framework for the Reasoning of Foundation Model-Powered Agents</div>
+                <div class="paper-authors">Benjamin Rombaut, <strong>Sogol Masoumzadeh</strong>, Kirill Vasilevski, Dayi Lin, Ahemd E. Hassan</div>
+                <div class="paper-venue">ASE 2025, Seoul, South Korea</div>
+                <div class="paper-links">
+                    <a href="https://arxiv.org/pdf/2509.25117" target="_blank">[arXiv]</a>
+                    <!-- <a href="https://doi.org/10.xxxx/xxxxx" target="_blank">[DOI]</a> -->
+                </div>
+            </div>
+
+            <!-- <h3>2024</h3>
+            <div class="paper">
+                <div class="paper-title">Earlier Work on Interesting Problem: Foundations and Applications</div>
+                <div class="paper-authors"><strong>Your Name</strong>, Co-Author 1</div>
+                <div class="paper-venue">International Conference on Machine Learning (ICML), 2024</div>
+                <div class="paper-links">
+                    <a href="paper-url.pdf" target="_blank">[PDF]</a>
+                    <a href="https://github.com/yourusername/project" target="_blank">[Code]</a>
+                </div>
+            </div> -->
+
+        </section>
+
+        <section id="teaching">
+            <!-- <h2>Teaching</h2>
+            <h3>Instructor</h3>
+            <ul>
+                <li><strong>[Course Code] - [Course Name]</strong>, [Semester Year], [University]</li>
+            </ul> -->
+
+            <h3>Teaching Assistant</h3>
+            <ul>
+                <li><strong>ECSE 429 - Software Validation</strong>, 2021&#8212;2023, McGill University</li>
+                <li><strong>ECSE 250 - Fundamentals of Software Developement</strong>, 2023, McGill University</li>
+                <li><strong>COMP 3170 - Analysis of Algorithms and Data Structures</strong>, 2019, The University of Manitoba</li>
+            </ul>
+
+            <!-- <h3>Guest Lectures</h3>
+            <ul>
+                <li>"[Lecture Title]" in [Course Name], [University], [Date]</li>
+                <li>"[Lecture Title]" at [Event/Institution], [Date]</li>
+            </ul> -->
+        </section>
+
+        <section id="service">
+            <h2>Professional Service</h2>
+            <h3>Reviewing</h3>
+            <ul>
+                <!-- <li>Conference Reviewer: NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, etc.</li> -->
+                <li>Journal Reviewer: IEEE Transactions on Software Engineering (TSE)</li>
+            </ul>
+
+            <!-- <h3>Organization</h3>
+            <ul>
+                <li>Program Committee Member: [Conference Name], [Year]</li>
+                <li>Workshop Organizer: [Workshop Name], [Year]</li>
+            </ul> -->
+
+            <h3>Mentoring</h3>
+            <ul>
+                <li>Mentored five undergraduate students at McGill University for their final captsone project in 2022.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Sogol Masoumzadeh. Last updated: December 2025.</p>
+        </footer>
+    </div>
+</body>
+</html>
